@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-shadow: 2px 2px #ccc;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0062cc;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
